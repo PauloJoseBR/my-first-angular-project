@@ -13,7 +13,7 @@ export class RecipeService {
             new Ingredient('Bacalhau', 1),
             new Ingredient('Leite', 2)
         ]),
-        new Recipe('Salmão Defumado', 'Esse é um delicioso salmão defumado', 'https://www.gazetadopovo.com.br/blogs/panela-do-anacreon/wp-content/uploads/sites/69/import/Salmao_defumado_com_risoto_de_alho_poro.JPG',
+        new Recipe('Salmão Defumado', 'Esse é um delicioso salmão defumado', 'https://i.ytimg.com/vi/mFyVU0qkLeU/maxresdefault.jpg',
         [
             new Ingredient('Salmão', 1),
             new Ingredient('Leite', 2)
