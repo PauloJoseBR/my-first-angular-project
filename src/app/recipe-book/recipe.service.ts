@@ -1,12 +1,12 @@
 import { Recipe } from './recipe.model';
-import { EventEmitter, Injectable } from '@angular/core';
+import { Injectable } from '@angular/core';
+
 import { Ingredient } from '../shared/ingredient.model';
 import { ShoppingListService } from '../shopping-list/shopping-list.service';
 
 
 @Injectable() 
 export class RecipeService {
-    recipeSelected = new EventEmitter<Recipe>();
 
     private recipes: Recipe[] = [
         new Recipe('Bacalhau', 'Esse é um bacalhau muito gostoso', 'https://www.teleculinaria.pt/wp-content/uploads/2016/09/Bacalhau-com-natas-e-delicias-do-mar-6_V2.jpg',[
